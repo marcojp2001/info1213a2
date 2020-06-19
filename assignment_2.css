@@ -47,9 +47,10 @@ div + footer {
 }
 
 /*class selectors*/
-.font_large {
-	font-size: xx-large;
+.eduTitle {
+	font-size: large;
 	font-weight: bold;
+	margin-left: 10%;
 }
 
 .float_center {
