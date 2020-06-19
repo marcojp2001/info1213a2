@@ -1,0 +1,170 @@
+/*general selectors*/
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #d3dbe8;
+	color: #23334a;
+}
+
+th {
+	font-size: x-large;
+}
+
+p {
+	margin: 3px;
+}
+
+hr {
+	margin-top: 20px;
+	border: 0px;
+	height: 1px;
+	background-color: black;
+	background-image: linear-gradient(to right, white, black, white);
+}
+
+footer form {
+	width: 200px;
+	margin-top: 2%;
+	padding: 25px;
+}
+
+/*adjacent selectors remove need for navfooter class*/
+table + footer {
+	background-color: #699ff5;
+	margin: 10px 0px 0px 0px;
+}
+
+div + footer {
+	background-color: #699ff5;
+	margin: 10px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 1800px) {
+	.compress {
+		margin-left: 10%;
+		margin-right: auto;
+		display: inline-block;
+	}
+}
+
+/*class selectors*/
+.font_large {
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+.float_center {
+	margin-left: 20%;
+}
+
+.float_left {
+	text-align: left;
+}
+
+.float_right {
+	text-align: right;
+}
+
+.left_border_color {
+	border-left: grey solid 6px;
+	padding: 10px;
+}
+
+.resumesize {
+	border: darkgrey solid 10px;
+	padding: 10px;
+	min-width: 500px;
+	background-color: white;
+	margin: 5% 20% 2% 20%;
+}
+
+.navheader {
+	background-color: #699ff5;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.sudobuttons {
+	padding: 5px;
+	border: 1.5px solid black;
+	background-color: white;
+	display: inline-block;
+	margin: 5px;
+}
+
+.linkremove {
+	text-decoration: none;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-bottom: 40px;
+	background-color: white;
+}
+
+.card:hover {
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+}
+
+.img_constraint {
+	width: 300px;
+	height: 200px;
+}
+
+.container {
+	width: 200px;
+	height: 150px;
+	padding-left: 15%;
+	padding-right: 0;
+	padding-top: 10px;
+	padding-bottom: 25%;
+}
+
+/*id selectors*/
+#resumesList {
+	margin-bottom: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+#referenceName {
+	font-size: large;
+	font-weight: bold;
+	margin-bottom: 50%;
+}
+
+
+
+
+
+/*new stuff*/
+
+/*card and card-img-top fix sizing for cards*/
+.card {
+	width: 300px;
+}
+
+.card-img-top {
+	width: 300px;
+}
+
+.btnSpacing {
+	margin: 10px;
+}
+
+
+/*added to center cards added to carousel*/
+.card {
+	margin: 0 auto;
+    float: none; 
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
+/*main background color*/
+.bgColor {
+	background-color: #d2d6d9;
+}
