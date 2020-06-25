@@ -27,7 +27,6 @@ footer form {
 	padding: 25px;
 }
 
-/*adjacent selectors remove need for navfooter class*/
 table + footer {
 	background-color: #699ff5;
 	margin: 10px 0px 0px 0px;
